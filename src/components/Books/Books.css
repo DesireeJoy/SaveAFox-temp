@@ -1,0 +1,44 @@
+.books {
+  width: 100%;
+  padding: 50px;
+}
+
+.books__cont {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 10px;
+  position: relative;
+  padding: 50px;
+}
+.books__bg {
+  transform: rotate(3deg);
+  z-index: -1;
+  position: absolute;
+  left: -250px;
+  top: 0;
+  background-color: rgba(0, 212, 255, 1);
+  height: 110%;
+  width: 1800px;
+}
+.books__heading {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 36px;
+  color: rgba(0, 212, 255, 1);
+  font-weight: 800;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px rgb(136, 46, 250);
+}
+.books__subheading {
+  width: 80%;
+  margin: 0 auto 25px auto;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  text-align: center;
+
+  padding-top: 5px;
+}

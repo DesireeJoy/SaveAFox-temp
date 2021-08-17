@@ -1,0 +1,133 @@
+.fun {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  position: relative;
+}
+.fun__heading {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 36px;
+  color: rgba(0, 212, 255, 1);
+  font-weight: 800;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px rgb(136, 46, 250);
+}
+.fun__subheading {
+  width: 80%;
+  margin: 0 auto 25px auto;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  text-align: center;
+
+  padding-top: 5px;
+}
+.fun__container {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 50px 0;
+}
+.fun__bg {
+  transform: rotate(3deg);
+  z-index: -1;
+  position: absolute;
+  left: -550px;
+  top: 0;
+  background-color: rgb(55, 212, 87);
+  height: 100%;
+  width: 1800px;
+}
+.fun__download {
+  display: grid;
+  width: 600px;
+  grid-template-columns: repeat(3, minmax(200px, 2fr));
+  grid-gap: 10px;
+  margin: 0 auto;
+}
+.fun__game {
+  width: 50%;
+}
+.fun__item {
+  width: 150px;
+  height: 150px;
+  border-radius: 0 10px 0 10px;
+  overflow: hidden;
+  position: relative;
+}
+.fun__item-image {
+  height: 150px;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+}
+.fun__item-title {
+  position: absolute;
+  color: rgb(255, 255, 255, 0);
+  background-color: rgb(55, 212, 87, 0);
+  font-weight: 800;
+  left: 0;
+  top: -75px;
+  width: 100%;
+  height: 75px;
+  margin: auto;
+  z-index: 3;
+  text-align: center;
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.fun__item:hover .fun__item-title {
+  background-color: rgb(55, 212, 87, 0.75);
+  color: rgb(255, 255, 255, 1);
+  top: 0;
+}
+.fun__item-linkBox {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 75px;
+  background-color: rgba(0, 212, 255, 1);
+  text-align: center;
+  position: absolute;
+  bottom: -100px;
+  left: 0px;
+  font-size: 12px;
+  transition: 1s;
+  transition-delay: 0.1s;
+}
+.fun__item:hover .fun__item-linkBox {
+  bottom: 0;
+}
+
+.fun__item-link {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.fun__item-link:hover {
+  font-weight: 400;
+  text-decoration: none;
+}
+.downloads__button {
+  width: 100px;
+  margin: 0 auto;
+  background-color: rgb(55, 212, 87);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+}

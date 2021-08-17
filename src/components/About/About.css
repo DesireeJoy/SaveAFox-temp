@@ -1,0 +1,82 @@
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+  background-image: url("../../images/FinneganCoverImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  min-height: 300px;
+  position: relative;
+}
+.about__content {
+  z-index: 1;
+  background-color: white;
+  border-radius: 85px;
+  padding: 25px;
+  position: relative;
+  margin: 50px;
+}
+.about__tail {
+  position: absolute;
+  left: -75px;
+  bottom: 60px;
+  overflow: hidden;
+  z-index: -4;
+  width: 0;
+  height: 0;
+  border-right: 175px solid white;
+  border-bottom: 75px solid transparent;
+}
+
+.about__p {
+  width: 800px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  z-index: 2;
+  overflow: hidden;
+}
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1;
+}
+.about__fox-image {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  z-index: 3;
+}
+.about__fox-image:hover {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform: rotate(3deg);
+  transform: rotate(0.3rad);
+  transform: rotate(3grad);
+  transform: rotate(0.03turn);
+}
+.highlight {
+  color: rgba(0, 212, 255, 1);
+  font-weight: 800;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
