@@ -1,17 +1,51 @@
-  import { Link } from 'react-router-dom';
+
+  import { HashLink as Link } from 'react-router-hash-link';
 
 
 function Navigation(props) {
   return (
-<div className="menu">
+    <div className="menu">
         <ul className="header__menuList">
-          <Link className="header__navItem" to="/">Home</Link>
-          <Link className="header__navItem" to="/fun">Fun</Link>
-          <Link className="header__navItem" to="/about">About</Link>
-          <Link className="header__navItem" to="/press">Press</Link>
-           
+         
+          <div className='header__navItem-text'><a className='header__navItem' href='/#main'>
+         Home
+            </a></div>
+      
+          <div className='header__navItem-text'><a className='header__navItem' href='/#fun'>
+        Fun
+            </a></div>
+
+          <div className='header__navItem-text'><a className='header__navItem' href='/#books'>
+    Books
+            </a></div>
+
+          <div className='header__navItem-text'><a className='header__navItem' href='/#press'>
+         Press
+            </a></div>
+
         </ul>
       </div>
+/* <div className="menu">
+        <ul className="header__menuList">
+         
+          <div className='header__navItem-text'><a className='header__navItem' to='/#main">
+         Home
+            </Link></div>
+      
+          <div className='header__navItem-text'><a className='header__navItem' to='/#fun">
+        Fun
+            </Link></div>
+
+          <div className='header__navItem-text'><a className='header__navItem' to='/#books">
+    Books
+            </Link></div>
+
+          <div className='header__navItem-text'><a className='header__navItem' to='/#press">
+         Press
+            </Link></div>
+
+        </ul>
+      </div> */
   )
 }
 

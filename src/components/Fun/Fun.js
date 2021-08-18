@@ -9,7 +9,7 @@ function Fun(props) {
 
   return (
     
-    <div className='fun'>
+    <div className='fun' id='fun'>
       
       <div className='fun__heading'>Finnegan Fun!</div>
      <p className='fun__subheading'>There are many different shapes and sizes when it comes to mobile device screen size. We can't provide all of them. So we've done our best to average android and iphone screen sizes and size our images based on that information.</p>
