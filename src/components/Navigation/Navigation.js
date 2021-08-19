@@ -1,51 +1,32 @@
 
-  import { HashLink as Link } from 'react-router-hash-link';
 
+import {Link} from 'react-scroll'
 
 function Navigation(props) {
   return (
-    <div className="menu">
+<div className="menu">
         <ul className="header__menuList">
          
-          <div className='header__navItem-text'><a className='header__navItem' href='/#main'>
-         Home
-            </a></div>
-      
-          <div className='header__navItem-text'><a className='header__navItem' href='/#fun'>
-        Fun
-            </a></div>
+          <div className='header__navItem-text'><div className='header__navItem'>
+            <Link activeClass="header__navItem-active" to="about" spy={true} smooth={true}>Home</Link>
+                 </div>     </div>    
 
-          <div className='header__navItem-text'><a className='header__navItem' href='/#books'>
-    Books
-            </a></div>
+                            <div className='header__navItem-text'><div className='header__navItem'>
+            <Link activeClass="header__navItem-active" to="books" spy={true} smooth={true}>Books</Link></div>  </div>
+             <div className='header__navItem-text'><div className='header__navItem'>
+            <Link activeClass="header__navItem-active" to="fun" spy={true} smooth={true}>Fun</Link>
+            </div>     </div>      
+            
+            
 
-          <div className='header__navItem-text'><a className='header__navItem' href='/#press'>
-         Press
-            </a></div>
+            <div className='header__navItem-text'><div className='header__navItem'>
+            <Link activeClass="header__navItem-active" to="press" spy={true} smooth={true}>Press</Link>      
+            </div>     </div>  
+
+
 
         </ul>
       </div>
-/* <div className="menu">
-        <ul className="header__menuList">
-         
-          <div className='header__navItem-text'><a className='header__navItem' to='/#main">
-         Home
-            </Link></div>
-      
-          <div className='header__navItem-text'><a className='header__navItem' to='/#fun">
-        Fun
-            </Link></div>
-
-          <div className='header__navItem-text'><a className='header__navItem' to='/#books">
-    Books
-            </Link></div>
-
-          <div className='header__navItem-text'><a className='header__navItem' to='/#press">
-         Press
-            </Link></div>
-
-        </ul>
-      </div> */
   )
 }
 

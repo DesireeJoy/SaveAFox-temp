@@ -1,5 +1,6 @@
 {
   "name": "fox-site",
+  "homepage": "http://wytheria.com/SaveAFox/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

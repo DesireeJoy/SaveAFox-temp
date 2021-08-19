@@ -27,7 +27,7 @@ function handleShowMore(){
    <Header />
   
     <Switch> 
-          <Route exact path='/'>
+          <Route >
             <Main
             theme={Theme}
             location={location}
@@ -42,7 +42,7 @@ function handleShowMore(){
         </Switch>
         </div>
   <Footer />
-=
+
    </>
   );
 }
