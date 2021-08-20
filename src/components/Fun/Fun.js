@@ -1,7 +1,6 @@
 
 import Match from '../Match/Match'
   import downloadsList from '../../constants/downloadsList';
-  import DownloadLink from '../DownloadLink/DownloadLink';
   import LinkList from '../LinkList/LinkList';
 
 function Fun(props) {
@@ -33,9 +32,13 @@ function Fun(props) {
                  </div>
       
                 ))}
+             
                 </div>
-          
+                    {props.downloadsShown < props.downloadLength && (
+                        <button className='downloads__button' onClick={props.handleShowMore}>Show more</button>
+                       )} 
       </div>
+
      </div>
         )
 }

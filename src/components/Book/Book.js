@@ -11,10 +11,10 @@ return(
      className="book__image"/> } 
  
      <div className="book__info">
-       <p className="book__subtitle">{props.bookSubtitle}</p>
-       <p className="book__title"> {props.bookTitle} </p>
-              <p className="book__contrib">{props.bookContrib}</p>
-              <a href={props.buyLink} className="book__buy book__buyItem">Purchase</a>
+       <div className="book__subtitle">{props.bookSubtitle}</div>
+       <div className="book__title"> {props.bookTitle} </div>
+              <div className="book__contrib">Created by {props.bookContrib}</div>
+            <a href={props.buyLink} className="book__buy book__buyItem">Purchase</a>  
      </div>
 
    </div>

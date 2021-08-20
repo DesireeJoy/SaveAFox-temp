@@ -17,10 +17,10 @@ function Main(props) {
 <About />
 <Books />
 <Fun 
-downloadsShown={props.downloadsShown}/>
- {props.downloadsShown < props.downloadLength && (
-                        <button className='downloads__button' onClick={props.handleShowMore}>Show more</button>
-                       )}
+downloadsShown={props.downloadsShown}
+downloadLength={props.downloadLength}
+handleShowMore={props.handleShowMore}/>
+
 <Press />
 {/* <div className="gridStuff">
           <section className="book-grid">

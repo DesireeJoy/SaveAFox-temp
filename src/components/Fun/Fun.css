@@ -121,8 +121,8 @@
   text-decoration: none;
 }
 .downloads__button {
-  width: 100px;
-  margin: 0 auto;
+  width: 150px;
+  margin: 20px auto;
   background-color: rgb(55, 212, 87);
   border: 1px solid white;
   border-radius: 5px;

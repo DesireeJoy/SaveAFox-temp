@@ -5,6 +5,7 @@ import {Link} from 'react-scroll'
 function Navigation(props) {
   return (
 <div className="menu">
+  <div className='header__mobile'></div>
         <ul className="header__menuList">
          
           <div className='header__navItem-text'><div className='header__navItem'>
@@ -21,7 +22,8 @@ function Navigation(props) {
 
             <div className='header__navItem-text'><div className='header__navItem'>
             <Link activeClass="header__navItem-active" to="press" spy={true} smooth={true}>Press</Link>      
-            </div>     </div>  
+            </div>   
+              </div>  
 
 
 

@@ -8,6 +8,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%vw;
+  overflow: hidden;
 }
 .page__content {
   max-width: 1200px;
