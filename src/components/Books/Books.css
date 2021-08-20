@@ -84,4 +84,7 @@
     margin: 0 auto 15px auto;
     font-size: 12px;
   }
+  .books__cont {
+    padding: 10px;
+  }
 }

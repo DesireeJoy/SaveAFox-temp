@@ -5,3 +5,10 @@
   margin: 0 auto;
   padding: 24px;
 }
+@media only screen and (max-width: 900px) {
+  .footer {
+    font-weight: 400;
+    padding: 12px;
+    font-size: 10px;
+  }
+}

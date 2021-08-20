@@ -75,3 +75,31 @@
   color: white;
   text-decoration: none;
 }
+@media only screen and (max-width: 900px) {
+  .press__content {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 658px) {
+  .press__content {
+    width: 500px;
+  }
+  .press__info {
+    width: 450px;
+    line-height: 22px;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .press__content {
+    width: 300px;
+  }
+  .press__info {
+    width: 450px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .press__info-text {
+    display: none;
+  }
+}
