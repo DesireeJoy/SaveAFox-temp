@@ -15,16 +15,42 @@ const downloadLength = downloadsList.length;
 
   const [Theme, setTheme] = useState('light');
   const [location, setLocation] = useState('home');
-  const [downloadsShown, setDownloadsShown] = useState(3)
+  const [downloadsShown, setDownloadsShown] = useState(3);
+    const [isMobile, setIsMobile] = useState(false);
+  const [isMobileNavOpen, setMobileNavOpen] = useState(false);
+    const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
  
 function handleShowMore(){
   setDownloadsShown(downloadsShown + 3);
 }
 
+ React.useEffect(() => {
+    const handleScreenSizeChange = () => setScreenWidth(window.innerWidth);
+    window.addEventListener("resize", handleScreenSizeChange);
+setIsMobile(screenWidth < 768);
+
+    return () => window.removeEventListener("resize", handleScreenSizeChange);
+  }, [screenWidth ]);
+
+  function handleMobileClick() {
+
+    setMobileNavOpen(true);
+    console.log("Is open? " + isMobileNavOpen)
+  }
+
+function handleMobileClose() {
+    setMobileNavOpen(false);
+    }
+
   return (
    <>
     <div className="page">
-   <Header />
+   <Header 
+   isMobile={isMobile}
+   mobileNavOpen={isMobileNavOpen}
+   onHamburgerClick={handleMobileClick}
+   handleMobileClose={handleMobileClose}
+   />
   
     <Switch> 
           <Route >

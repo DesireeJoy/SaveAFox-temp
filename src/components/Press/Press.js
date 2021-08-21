@@ -7,21 +7,15 @@ function Press(props) {
     <div className='press' id='press'>
       <div className='press__heading'>Press Kit</div>
        <div className='press__content'>
-         <div className='press__image'></div><div className='press__info'>
+         <div className='press__image'></div>
+         
+         <div className='press__info'>
            <p>The Save A Fox book series features Finnegan Fox and his friends from the SaveAFox rescue.</p>
             <p className='press__info-text'>
               This book was writtened by Mikayla Raines & Cassandra Severson, Illustrated by Cameo Anderson.</p>
         <DownloadLink
                  src={process.env.PUBLIC_URL + '/press/pressKit.pdf'} className='press__link'>Download Press Kit</DownloadLink>
-         
-         
-
-   
-         
-         
-         
-         
-         </div>
+           </div>
        </div>
      </div>
         )

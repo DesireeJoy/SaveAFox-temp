@@ -70,9 +70,7 @@
   left: 0;
   z-index: 5;
 }
-.header__mobile {
-  display: none;
-}
+
 .header__title {
   font-size: 45px;
   color: white;
@@ -89,6 +87,16 @@
   to {
     opacity: 1;
   }
+}
+.header__hamburger {
+  height: 24px;
+  width: 24px;
+  background-image: url("../../images/hamburger.svg");
+  border: none;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  margin-right: 16px;
 }
 .header__menuList {
   display: flex;
@@ -124,25 +132,12 @@
     margin: 2px;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 678px) {
   .header__title {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 800;
     text-align: center;
-
+    padding-bottom: 10px;
     text-shadow: none;
-  }
-
-  .header__menuList {
-    display: none;
-  }
-  .header__mobile {
-    background-image: url("../../images/hamburger.svg");
-    width: 24px;
-    height: 24px;
-    background-position: center;
-    background-size: contain;
-    display: flex;
-    margin: auto;
   }
 }
