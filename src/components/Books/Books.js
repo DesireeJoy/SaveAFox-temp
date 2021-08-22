@@ -4,9 +4,6 @@
   const bookLength = bookList.length;
 function Books() {
     return (
-
-
-
 <>
   
  <div className='books__heading' id='books'>Finnegan Fox Books</div>

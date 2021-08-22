@@ -4,7 +4,7 @@ import Fox1 from '../../images/FoxHead1.png';
 
 function About(props) {
   return (
-    <main className='about'>
+    <div className='about'>
       <img className='about__fox-image' alt='Cartoon fox head in a circle' src={Fox1}/>
       <div className='about__content'> 
       
@@ -20,7 +20,7 @@ function About(props) {
         <div className='about__tail'></div>
 </div>
 
-     </main>
+     </div>
         )
 }
 

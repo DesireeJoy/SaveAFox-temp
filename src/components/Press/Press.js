@@ -14,8 +14,11 @@ function Press(props) {
             <p className='press__info-text'>
               This book was writtened by Mikayla Raines & Cassandra Severson, Illustrated by Cameo Anderson.</p>
         <DownloadLink
-                 src={process.env.PUBLIC_URL + '/press/pressKit.pdf'} className='press__link'>Download Press Kit</DownloadLink>
+                 src={process.env.PUBLIC_URL + '/images/Downloads/pressKit.rar'} className='press__link'>Download Press Kit</DownloadLink>
            </div>
+
+
+
        </div>
      </div>
         )

@@ -1,6 +1,6 @@
 const downloadsList = [
   {
-    image: "/Downloads/printables-tiny-001.PNG",
+    image: "/Downloads/Printables-tiny-001.PNG",
     description: "Print/ Wallpaper",
      links: [
        {
@@ -17,7 +17,7 @@ const downloadsList = [
       alt: 'Finnegan Fox Print',
   },
 {
-    image: "/Downloads/printables-tiny-002.PNG",
+    image: "/Downloads/Printables-tiny-002.PNG",
     description: "Print/ Wallpaper",
      links: [
        {
@@ -36,7 +36,7 @@ const downloadsList = [
       alt: 'White Fox Download',
   },
   {
-    image: "/Downloads/printables-tiny-003.PNG",
+    image: "/Downloads/Printables-tiny-003.PNG",
     description: "Print/ Wallpaper",
      links: [
        {
@@ -55,7 +55,7 @@ const downloadsList = [
       alt: 'White Fox Download',
   },
   {
-    image: "/Downloads/printables-tiny-004.PNG",
+    image: "/Downloads/Printables-tiny-004.PNG",
     description: "Print/ Wallpaper",
      links: [
        {
@@ -70,7 +70,7 @@ const downloadsList = [
       alt: 'White Fox Download',
   },
   {
-    image: "/Downloads/printables-tiny-005.PNG",
+    image: "/Downloads/Printables-tiny-005.PNG",
     description: "Print/ Wallpaper",
      links: [
        {
@@ -89,7 +89,7 @@ const downloadsList = [
       alt: 'White Fox Download',
   },
   {
-    image: "/Downloads/printables-tiny-006.PNG",
+    image: "/Downloads/Printables-tiny-006.PNG",
     description: "Print/ Wallpaper",
      links: [
        {
