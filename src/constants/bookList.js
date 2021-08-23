@@ -19,36 +19,6 @@ const bookList = [
     buy:
       "https://www.saveafox.org/product-page/the-great-escape-children-s-book",
   },
-    {
-    title: "Finnegan Fox",
-    subtitle: "The Great Escape",
-    author: "Mikayla Raines, Cassandra Severson",
-    illustrator: "Cameo Anderson",
-    link: "Book2GreatEscape.jpg",
-    alt: "Finnegan Fox Book Two Cover",
-    buy:
-      "https://www.saveafox.org/product-page/the-great-escape-children-s-book",
-  },
-    {
-    title: "Finnegan Fox",
-    subtitle: "The Great Escape",
-    author: "Mikayla Raines, Cassandra Severson",
-    illustrator: "Cameo Anderson",
-    link: "Book2GreatEscape.jpg",
-    alt: "Finnegan Fox Book Two Cover",
-    buy:
-      "https://www.saveafox.org/product-page/the-great-escape-children-s-book",
-  },
-    {
-    title: "Finnegan Fox",
-    subtitle: "The Great Escape",
-    author: "Mikayla Raines, Cassandra Severson",
-    illustrator: "Cameo Anderson",
-    link: "Book2GreatEscape.jpg",
-    alt: "Finnegan Fox Book Two Cover",
-    buy:
-      "https://www.saveafox.org/product-page/the-great-escape-children-s-book",
-  },
 ];
 
 
