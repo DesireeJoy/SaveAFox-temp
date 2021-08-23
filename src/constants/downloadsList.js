@@ -52,7 +52,7 @@ const downloadsList = [
     "link" : "/Downloads/Printables-003-android.PNG",
   },
 ],
-      alt: 'White Fox Download',
+      alt: 'Dixie Sunset Download',
   },
   {
     image: "/Downloads/Printables-tiny-004.PNG",
@@ -66,8 +66,12 @@ const downloadsList = [
       "for" : "iPhone",
     "link" : "/Downloads/Printables-004-iphone.PNG",
   },
+    {
+      "for" : "Android",
+    "link" : "/Downloads/Printables-004-android.PNG",
+  },
 ],
-      alt: 'White Fox Download',
+      alt: 'Three Foxes Download',
   },
   {
     image: "/Downloads/Printables-tiny-005.PNG",
@@ -86,7 +90,7 @@ const downloadsList = [
     "link" : "/Downloads/Printables-005-android.PNG",
   },
 ],
-      alt: 'White Fox Download',
+      alt: 'Silver & Black Fox Download',
   },
   {
     image: "/Downloads/Printables-tiny-006.PNG",
@@ -105,7 +109,7 @@ const downloadsList = [
     "link" : "/Downloads/Printables-006-android.PNG",
   },
 ],
-      alt: 'White Fox Download',
+      alt: 'Fox Rolling in Snow Download',
   },
 
 ];
