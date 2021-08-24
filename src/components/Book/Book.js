@@ -1,6 +1,22 @@
 import coverOne from '../../images/Book1.jpg';
 import coverTwo from '../../images/Book2GreatEscape.jpg';
 
+ //* Scroll Check *//
+
+    const scrollElements = document.querySelectorAll(".book__image");
+    const elementInView = (el, percentageScroll = 100) => {
+  const elementTop = el.getBoundingClientRect().top;
+ console.log(scrollElements + " are scroll elements");
+ console.log("Cat")
+  return (
+    elementTop <= 
+    ((window.innerHeight || document.documentElement.clientHeight) * (percentageScroll/100))
+  );
+};
+
+
+
+
 function Book(props) {
 
 return(

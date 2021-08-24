@@ -42,6 +42,7 @@ function handleMobileClose() {
     setMobileNavOpen(false);
     }
 
+   
   return (
    <>
     <div className="page">

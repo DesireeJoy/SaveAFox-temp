@@ -20,7 +20,7 @@ function Fun(props) {
                 .map((item, index) => (
                <div className='fun__item'><img className='fun__item-image'alt={item.alt} src={process.env.PUBLIC_URL + '/images/' + item.image}/>
                  <p className='fun__item-title'>{item.description}</p>
-                 <div class='fun__item-linkBox'>
+                 <div className='fun__item-linkBox'>
           <span>Download for</span>
     <LinkList links = {item.links}/>
            
