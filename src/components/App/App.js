@@ -44,7 +44,7 @@ function handleMobileClose() {
 
    
   return (
-   <>
+<>
     <div className="page">
    <Header 
    isMobile={isMobile}
@@ -69,8 +69,7 @@ function handleMobileClose() {
         </Switch>
         </div>
   <Footer />
-
-   </>
+</>
   );
 }
 

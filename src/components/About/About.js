@@ -1,11 +1,13 @@
 
-import Fox1 from '../../images/FoxHead1.png';
-
+import Fox1 from '../../images/FoxHead2.png';
+    import { Slide } from "react-awesome-reveal";
 
 function About(props) {
   return (
     <div className='about'>
+
       <img className='about__fox-image' alt='Cartoon fox head in a circle' src={Fox1}/>
+      <Slide direction='right'>
       <div className='about__content'> 
       
         <p className='about__p'>
@@ -19,7 +21,7 @@ function About(props) {
         save a fox! </p>
         <div className='about__tail'></div>
 </div>
-
+ </Slide>
      </div>
         )
 }

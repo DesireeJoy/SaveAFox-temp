@@ -9,6 +9,8 @@
   color: black;
   min-height: 300px;
   position: relative;
+
+  height: 90vh;
 }
 .about__content {
   width: 75%;
@@ -59,17 +61,12 @@
   background-color: white;
   z-index: 3;
   margin-left: 10px;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
-.about__fox-image:hover {
-  animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  transform: rotate(3deg);
-  transform: rotate(0.3rad);
-  transform: rotate(3grad);
-  transform: rotate(0.03turn);
-}
+
 .highlight {
   color: rgba(0, 212, 255, 1);
   font-weight: 800;

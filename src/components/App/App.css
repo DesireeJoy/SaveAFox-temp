@@ -9,6 +9,7 @@
   align-items: center;
   width: 100%;
   overflow: hidden;
+  background-color: #25362a;
 }
 .page__content {
   max-width: 1200px;

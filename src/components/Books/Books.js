@@ -1,6 +1,8 @@
   import bookList from '../../constants/bookList';
   import Book from '../Book/Book';
-  import maxBooksRow from '../../constants/constants'
+  import maxBooksRow from '../../constants/constants';
+  import { Fade } from "react-awesome-reveal";
+
   const bookLength = bookList.length;
 function Books() {
     return (
@@ -8,9 +10,10 @@ function Books() {
   
  <div className='books__heading' id='books'>Finnegan Fox Books</div>
   <div className='books__subheading'>The Finnegan fox adventures are always growing and introducing new members of the Save-A-Fox gang.</div>
+     <Fade cascade='true'  damping=".5" direction="right"> 
 <div className='books'><div className='books__cont'> 
   <div className='books__bg'></div>
-   
+
                 {bookList
                     .slice(0, bookLength >= maxBooksRow ? bookLength : maxBooksRow)
                 .map((book, index) => (
@@ -23,7 +26,9 @@ function Books() {
                     bookContrib={book.author + " and " + book.illustrator}
                 />
                 ))}
+          
                 </div></div>
+                      </Fade>
 </>
     )
 }
