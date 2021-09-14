@@ -3,7 +3,7 @@ img[src~="#titleImg"] {
    height:10px;
 }
 
-![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png# titleImg)
+![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png#titleImg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
