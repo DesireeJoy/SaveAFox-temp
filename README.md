@@ -5,10 +5,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Technologies Used
-- React
-- JS Libraries
--
+## This web app is
+- Updatable
+- Responsive
+- Utilizes react-awesome-reveal library
 
 <IMG SRC='https://github.com/DesireeJoy/SaveAFox/blob/master/src/images/FoxHead1.png' style='height:50%; width:50%'/>
 
