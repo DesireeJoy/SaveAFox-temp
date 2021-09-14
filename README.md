@@ -1,5 +1,10 @@
-![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png)
-  
+img[src*="#titleImg"] {
+   width:50px;
+   height:10px;
+}
+
+![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png#titleImg)
+  #thumbnail) 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
