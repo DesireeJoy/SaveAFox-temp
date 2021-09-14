@@ -1,11 +1,16 @@
-img[src~="#titleImg"] {
-   width:50px;
-   height:10px;
-}
 
 ![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png#titleImg)
 
+#SaveAFox is a fox rescue located in Minnesota. This website is for their promotional childrens books **The Adventures of Finnegan Fox**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+##Technologies Used
+- React
+- JS Libraries
+-
+
+<IMG SRC='https://github.com/DesireeJoy/SaveAFox/blob/master/src/images/FoxHead1.png' style='height:50%; width:50%'/>
 
 ## Available Scripts
 
