@@ -2,6 +2,12 @@ img[src*="#titleImg"] {
    width:50px;
    height:10px;
 }
+img[src~="thumbnail"] {
+   width:150px;
+   height:100px;
+}
+![Kitten](kitten.jpg?thumbnail) 
+
 
 ![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png#titleImg)
   #thumbnail) 
