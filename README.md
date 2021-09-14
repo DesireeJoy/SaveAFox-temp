@@ -1,9 +1,5 @@
-
-
-    ![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png)
+![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png)
   
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
