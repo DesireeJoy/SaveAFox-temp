@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Responsive
 - Utilizes react-awesome-reveal library
 
-<IMG SRC='https://github.com/DesireeJoy/SaveAFox/blob/master/src/images/FoxHead1.png' style='height:50%; width:50%'/>
+<IMG SRC='https://github.com/DesireeJoy/SaveAFox/blob/master/src/images/FoxHead2.png' alt='Finnegan Fox Head' style='height:30%; width:30%'/>
 
 ## Available Scripts
 
