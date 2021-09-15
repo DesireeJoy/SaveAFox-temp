@@ -5,17 +5,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## This web app is
+**This web app is **
 - Updatable
 - Responsive
 - Utilizes react-awesome-reveal library
 
 <IMG SRC='https://github.com/DesireeJoy/SaveAFox/blob/master/src/images/FoxHead2.png' alt='Finnegan Fox Head' style='height:30%; width:30%'/>
 
-## Available Scripts
-
-In the project directory, you can run:
-
+** Scripts **
+- npm run build
+- npm run start
 ### `npm start`
 
 Runs the app in the development mode.\
