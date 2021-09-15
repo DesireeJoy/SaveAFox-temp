@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <IMG SRC='https://github.com/DesireeJoy/SaveAFox/blob/master/src/images/FoxHead2.png' alt='Finnegan Fox Head' style='height:30%; width:30%'/>
 
-** Scripts **
+**Scripts**
 - npm run build
 - npm run start
 ### `npm start`
