@@ -15,7 +15,7 @@
 }
 .fun__subheading {
   width: 80%;
-  margin: 0 auto 25px auto;
+  margin: 0 auto 75px auto;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
@@ -60,6 +60,7 @@
   border-radius: 0 10px 0 10px;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
 }
 .fun__item-image {
   height: 150px;
@@ -135,7 +136,6 @@
     font-size: 24px;
   }
   .fun__subheading {
-    margin: 0 auto 25px auto;
     font-size: 18px;
   }
 }
@@ -144,7 +144,6 @@
     font-size: 20px;
   }
   .fun__subheading {
-    margin: 0 auto 25px auto;
     font-size: 16px;
   }
   .fun__download {
@@ -156,9 +155,16 @@
 @media only screen and (max-width: 650px) {
   .fun__heading {
     font-size: 18px;
+    padding: 0;
   }
   .fun__subheading {
-    margin: 0 auto 18px auto;
-    font-size: 12px;
+    margin: 0 auto 50px auto;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .fun__download {
+    grid-template-columns: repeat(1, minmax(200px, 2fr));
+    padding: 0;
   }
 }

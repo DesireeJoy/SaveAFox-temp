@@ -1,6 +1,6 @@
 import Navigation from '../Navigation/Navigation'
 import MobileNavigation from '../MobileNavigation/MobileNavigation'
-
+import React  from 'react';
 function Header(props) {
   console.log(props.isMobile + " is mobile " + props.mobileNavOpen)
   return (

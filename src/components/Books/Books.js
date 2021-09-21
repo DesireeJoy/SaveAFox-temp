@@ -2,11 +2,12 @@
   import Book from '../Book/Book';
   import maxBooksRow from '../../constants/constants';
   import { Fade } from "react-awesome-reveal";
+  import React from 'react';
 
   const bookLength = bookList.length;
 function Books() {
     return (
-<>
+<React.Fragment>
   
  <div className='books__heading' id='books'>Finnegan Fox Books</div>
   <div className='books__subheading'>The Finnegan fox adventures are always growing and introducing new members of the Save-A-Fox gang.</div>
@@ -29,7 +30,7 @@ function Books() {
           
                 </div></div>
                       </Fade>
-</>
+</React.Fragment>
     )
 }
 

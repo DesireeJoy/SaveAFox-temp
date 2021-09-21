@@ -16,7 +16,7 @@
   padding: 20px 0;
 }
 .press__content {
-  width: 800px;
+  max-width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -81,7 +81,7 @@
     padding: 20px;
   }
   .press__content {
-    width: 600px;
+    max-width: 500px;
   }
   .press__info {
     height: 200px;
@@ -111,20 +111,21 @@
 }
 @media only screen and (max-width: 575px) {
   .press__content {
-    width: 350px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    width: 100%;
   }
   .press__image {
-    width: 350px;
-    height: 350px;
+    width: 90%;
+    max-height: 250px;
     padding: 0;
-    margin: auto;
+    margin: 0;
   }
   .press__info {
-    width: 350px;
-    line-height: 20px;
+    width: 90%;
+    line-height: 18px;
     font-size: 16px;
     padding: 0;
+    margin: 0;
   }
 }

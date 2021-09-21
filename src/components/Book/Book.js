@@ -1,6 +1,7 @@
 import coverOne from '../../images/Book1.jpg';
 import coverTwo from '../../images/Book2GreatEscape.jpg';
-import { Fade } from "react-awesome-reveal";
+
+import React from 'react';
 
 //  //* Scroll Check *//
 

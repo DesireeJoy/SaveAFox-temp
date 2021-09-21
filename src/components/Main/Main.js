@@ -1,6 +1,6 @@
 
- import React, { useState, useCallback } from 'react';
- import { Link } from 'react-router-dom';
+ import React from 'react';
+
 
 
  import About from '../About/About';
@@ -22,11 +22,7 @@ downloadLength={props.downloadLength}
 handleShowMore={props.handleShowMore}/>
 
 <Press />
-{/* <div className="gridStuff">
-          <section className="book-grid">
-            <ul className="book-grid__list"></ul>
-          </section>
-        </div> */}
+
 
      
      </main>

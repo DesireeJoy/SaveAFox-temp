@@ -1,5 +1,6 @@
 
 import Fox1 from '../../images/FoxHead2.png';
+import React from 'react';
     import { Slide } from "react-awesome-reveal";
 
 function About(props) {

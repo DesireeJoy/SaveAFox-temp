@@ -1,5 +1,5 @@
 
-import Match from '../Match/Match'
+import React from 'react';
   import downloadsList from '../../constants/downloadsList';
   import LinkList from '../LinkList/LinkList';
     import { Fade } from "react-awesome-reveal";

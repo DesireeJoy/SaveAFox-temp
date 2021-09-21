@@ -1,6 +1,6 @@
 
 import DownloadLink from '../DownloadLink/DownloadLink';
-import Reveal from "react-awesome-reveal";
+import React from 'react';
 
 function Press(props) {
   return (
