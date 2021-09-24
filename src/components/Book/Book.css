@@ -4,6 +4,7 @@
   justify-content: center;
   margin: 10px 0;
   max-width: 850px;
+  text-align: left;
 }
 .book__image {
   max-height: 150px;
@@ -13,39 +14,46 @@
 }
 .book__info {
   color: black;
-  text-align: center;
-
+  padding: 0;
+  padding-left: 15px;
   background-color: white;
   border-radius: 0 10px 10px 0;
-  padding: 0;
   max-width: 250px;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
   position: relative;
-  justify-content: center;
 }
-
+.book__info-cont {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  height: 80%;
+}
 .book__title {
   margin: 0;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 600;
   padding: 0;
+  line-height: 1em;
+  padding-bottom: 0.25em;
+  letter-spacing: 0.1em;
 }
 
 .book__subtitle {
   font-weight: 800;
   color: black;
-  font-size: 18px;
-  padding: 5px;
+  font-size: 16px;
   padding-bottom: 0;
+  line-height: 1em;
 }
 
 .book__contrib {
   max-width: 75%;
   font-size: 12px;
-  line-height: 18px;
-  padding: 5px;
-  margin: 0 auto;
+  line-height: 1.125em;
+  padding-top: 1em;
 }
 
 .book__buyItem {
@@ -56,8 +64,9 @@
   width: 100%;
   opacity: 1;
   padding: 0;
+  padding-left: 15px;
   background-color: rgba(0, 0, 139, 0.2);
-  text-align: center;
+  text-align: left;
   transition: background-color 0.5s ease;
   z-index: 1;
   margin: 0;
@@ -73,36 +82,41 @@
   color: white;
   text-decoration: none;
 }
-@media only screen and (max-width: 1150px) {
-  .book__title {
+@media only screen and (max-width: 1360px) {
+  .book__subtitle {
     font-size: 14px;
-    line-height: 18px;
+  }
+  .book__contrib {
+    width: 100%;
+    line-height: 1em;
+    padding-top: 0.75em;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .book__title {
+    font-size: 16px;
   }
 
   .book__subtitle {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
   }
 
   .book__contrib {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
   }
 }
+
 @media only screen and (max-width: 1080px) {
   .book__title {
     font-size: 14px;
-    line-height: 16px;
   }
 
   .book__subtitle {
     font-size: 16px;
-    line-height: 18px;
   }
 
   .book__contrib {
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 14px;
   }
   .book {
     margin: 5px 0;
@@ -113,28 +127,33 @@
     min-width: 125px;
   }
   .book__title {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 1.5em;
   }
 
   .book__subtitle {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.5em;
   }
 
   .book__contrib {
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 1.25em;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 680px) {
   .book__subtitle {
-    margin: 0 auto 5px auto;
-    font-size: 14px;
-    line-height: 14px;
+    line-height: 1em;
+    padding: 0;
+  }
+  .book__title {
+    display: none;
   }
   .book__contrib {
-    font-size: 10px;
+    padding: 0;
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 1em;
   }
   .book__buyItem {
     font-weight: 400;
@@ -146,9 +165,6 @@
 }
 
 @media only screen and (max-width: 490px) {
-  .book__title {
-    display: none;
-  }
   .book {
     margin: 10px 0;
   }

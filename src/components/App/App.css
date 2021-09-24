@@ -9,14 +9,11 @@
   align-items: center;
   width: 100%;
   overflow: hidden;
-  background-color: #25362a;
-}
-.page__content {
-  max-width: 1200px;
+  background-color: #e1f2f2;
 }
 
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -63,5 +60,5 @@
   overflow: hidden;
 }
 .text-center {
-  text-align: center;
+  text-align: left;
 }

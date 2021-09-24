@@ -3,13 +3,13 @@
 }
 .header__navItem {
   text-decoration: none;
-  color: white;
+  color: #fff !important;
   font-weight: 800;
   font-size: 18px;
   min-width: 75px;
   opacity: 1;
   padding: 15px;
-  text-align: center;
+  text-align: left;
   transition: transform 250ms ease-in;
   z-index: 1;
   margin: 5px;
@@ -20,7 +20,7 @@
 }
 .header__navItem-active {
   border-bottom: 2px solid white;
-  color: white;
+  color: fff;
 }
 .header__navItem::after {
   content: "";
@@ -136,7 +136,7 @@
   .header__title {
     font-size: 18px;
     font-weight: 800;
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
     text-shadow: none;
   }
