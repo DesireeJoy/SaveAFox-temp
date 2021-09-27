@@ -1,25 +1,25 @@
-.books {
-  padding: 50px;
-}
-
 .books__cont {
-  max-width: 80%;
   margin: 0 auto;
+  position: relative;
+  padding: 50px 0;
+}
+.books__inner-cont {
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
   grid-gap: 10px;
-  position: relative;
-  padding: 50px;
+  margin: 0 auto;
+  margin-top: 25px;
 }
 .books__bg {
   transform: rotate(3deg);
   z-index: -1;
   position: absolute;
-  left: -250px;
+  left: -50px;
   top: 0;
   background-color: rgba(0, 212, 255, 1);
   height: 110%;
-  width: 1800px;
+  width: 125%;
 }
 .books__heading {
   width: 80%;
@@ -33,22 +33,26 @@
 }
 .books__subheading {
   width: 80%;
-  margin: 0 auto 25px auto;
+  margin: 0 auto 5em auto;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   text-align: left;
-
   padding-top: 5px;
 }
 
 @media only screen and (max-width: 1200px) {
+  .books__inner-cont {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
   .books__heading {
     font-size: 32px;
     padding-top: 10px;
   }
   .books__subheading {
-    margin: 0 auto 15px auto;
+    margin: 0 auto 55px auto;
     font-size: 20px;
   }
   .books__cont {
@@ -64,7 +68,6 @@
     padding-top: 10px;
   }
   .books__subheading {
-    margin: 0 auto 15px auto;
     font-size: 14px;
   }
 }

@@ -83,6 +83,10 @@
   text-decoration: none;
 }
 @media only screen and (max-width: 1360px) {
+  .book__title {
+    font-size: 16px;
+  }
+
   .book__subtitle {
     font-size: 14px;
   }
@@ -92,31 +96,20 @@
     padding-top: 0.75em;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .book__title {
-    font-size: 16px;
-  }
-
-  .book__subtitle {
-    font-size: 18px;
-  }
-
-  .book__contrib {
-    font-size: 14px;
-  }
-}
 
 @media only screen and (max-width: 1080px) {
   .book__title {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .book__subtitle {
-    font-size: 16px;
+    font-size: 13px;
+    padding-right: 5px;
   }
 
   .book__contrib {
-    font-size: 14px;
+    padding-top: 0.75em;
+    font-size: 12px;
   }
   .book {
     margin: 5px 0;
