@@ -2,7 +2,7 @@
 ![Two Cartoon Foxes from the Save A Fox books](/src/images/TitleImage.png#titleImg)
 
 ## Live Version
-(Live Site)[https://desireejoy.github.io/SaveAFox-temp/]
+[Live Site](https://desireejoy.github.io/SaveAFox-temp/)
 
 #SaveAFox is a fox rescue located in Minnesota. This website is for their promotional childrens books **The Adventures of Finnegan Fox**
 
