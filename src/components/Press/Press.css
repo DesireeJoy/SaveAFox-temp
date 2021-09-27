@@ -18,11 +18,11 @@
 .press__content {
   display: flex;
   flex-direction: row;
-
   margin: 0 auto;
   color: white;
   text-align: left;
   font-size: 18px;
+  width: 80%;
 }
 .press__image {
   width: 250px;
