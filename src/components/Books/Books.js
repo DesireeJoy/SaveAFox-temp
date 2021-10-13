@@ -10,7 +10,7 @@ function Books() {
 <React.Fragment>
   
  <div className='books__heading' id='books'>Finnegan Fox Books</div>
-  <div className='books__subheading'>The Finnegan fox adventures are always growing and introducing new members of the Save-A-Fox gang.</div>
+  <div className='books__subheading'>The Finnegan fox adventures are always growing and introducing new members of the Save A Fox gang.</div>
      <Fade cascade='true'  damping=".5" direction="right"> 
 <div className='books'><div className='books__cont'> 
 <div className='books__inner-cont'> 
