@@ -3,6 +3,7 @@ import React from 'react';
   import downloadsList from '../../constants/downloadsList';
   import LinkList from '../LinkList/LinkList';
     import { Fade } from "react-awesome-reveal";
+
 function Fun(props) {
 
 
@@ -27,11 +28,7 @@ function Fun(props) {
           <span>Download for</span>
     <LinkList links = {item.links}/>
            
-      </div>
-                
-            
-                
-                 
+      </div>  
                  </div>
       
                 ))}
@@ -43,6 +40,9 @@ function Fun(props) {
                        )} 
       </div>
  </Fade>
+
+
+
      </div>
         )
 }

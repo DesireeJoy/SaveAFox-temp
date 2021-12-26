@@ -19,6 +19,16 @@ const bookList = [
     buy:
       "https://www.saveafox.org/product-page/the-great-escape-children-s-book",
   },
+    {
+    title: "Finnegan Fox",
+    subtitle: "Kipper gets rescued from a furfarm",
+    author: "Mikayla Raines, Cassandra Severson",
+    illustrator: "Cameo Anderson",
+    link: "Book3Kipper.jpeg",
+    alt: "Finnegan Fox Book Three Cover",
+    buy:
+      "https://www.saveafox.org/product-page/the-great-escape-children-s-book",
+  },
 ];
 
 

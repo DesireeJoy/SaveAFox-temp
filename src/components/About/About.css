@@ -9,6 +9,7 @@
   color: black;
   min-height: 300px;
   position: relative;
+  height: 90vh;
 }
 .about__content {
   width: 75%;
@@ -91,6 +92,9 @@
   }
 }
 @media only screen and (max-width: 900px) {
+  .about {
+    height: 70vh;
+  }
   .about__p {
     font-size: 14px;
     line-height: 16px;
@@ -98,6 +102,7 @@
   .about__content {
     margin: 25px;
     border-radius: 10px;
+    padding: 1em;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -113,19 +118,5 @@
     bottom: 40px;
     border-right: 25px solid white;
     border-bottom: 15px solid transparent;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .about__content {
-    padding: 1em;
-  }
-  .about {
-    height: 70vh;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .about {
-    height: 90vh;
   }
 }

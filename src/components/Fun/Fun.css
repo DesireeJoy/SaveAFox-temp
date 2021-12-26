@@ -24,7 +24,7 @@
   padding-top: 5px;
 }
 .fun__container {
-  width: 110%;
+  width: 100%;
   margin: 0;
   display: flex;
   font-size: 24px;
@@ -50,6 +50,9 @@
   grid-template-columns: repeat(3, minmax(200px, 2fr));
   grid-gap: 10px;
   margin: 0 auto;
+}
+.fun__match {
+  width: 80%;
 }
 .fun__game {
   width: 50%;

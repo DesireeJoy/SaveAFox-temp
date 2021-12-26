@@ -1,13 +1,10 @@
 
  import React from 'react';
-
-
-
  import About from '../About/About';
-  import Fun from '../Fun/Fun';
-  import Press from '../Press/Press';
+import Fun from '../Fun/Fun';
+import Press from '../Press/Press';
 import Books from '../Books/Books';
-  
+import Match from '../Match/Match';
 
 
 function Main(props) {
@@ -20,7 +17,7 @@ function Main(props) {
 downloadsShown={props.downloadsShown}
 downloadLength={props.downloadLength}
 handleShowMore={props.handleShowMore}/>
-
+<Match />
 <Press />
 
 
