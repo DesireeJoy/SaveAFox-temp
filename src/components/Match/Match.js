@@ -4,14 +4,6 @@ import React, { useState, useEffect } from 'react';
 import Card from '../Card/Card'
 
 
-import Dixie from "../../images/cards/foxDixie.png"
-import Fin from "../../images/cards/foxFin.png"
-import Kipper from "../../images/cards/foxKipper.png"
-import Mala from "../../images/cards/foxMala.png"
-import Mouse from "../../images/cards/foxMouse.png"
-import Nebraska from "../../images/cards/foxNebraska.png" 
-import Nikita from "../../images/cards/foxNikita.png" 
-import Valentine from "../../images/cards/foxValentine.png"
 
 const foxNames = [
     { "name" : "Dixie", matched: false },
@@ -31,6 +23,7 @@ function Match() {
   const [attempts, setAttempts] = useState(0)
   const [firstGuess, setFirstGuess] = useState(null)
   const [secondGuess, setSecondGuess] = useState(null)
+  const [disabled, setDisabled]= useState(false)
 
 const shuffleCards = () =>{
   const shuffledCards = [...foxNames, ...foxNames].sort(() => Math.random() - 0.5).map((card) => ({ ...card, id: Math.random() }));
@@ -43,12 +36,15 @@ const resetGuess = () => {
   setFirstGuess(null)
   setSecondGuess(null)
   setAttempts(attempts + 1)
+  setDisabled(false)
 }
 
 useEffect(()  => {
+  
  if (firstGuess && secondGuess) 
  {
-  if (firstGuess.name === secondGuess.name)
+   setDisabled(true)
+  if ((firstGuess.name === secondGuess.name) && (firstGuess.id !== secondGuess.id))
     {
     setCards(prevCards => 
       {
@@ -96,16 +92,18 @@ firstGuess ? setSecondGuess(card) : setFirstGuess(card)
           <div className="match__userBox">
 
           <div className='match__game-area'> 
-
-          <div className='match__userInfo'>Tries: {attempts}</div>
-  <button onClick={shuffleCards} defaultValue="Reset" className="resetGame">New Game</button>
+         <button onClick={shuffleCards} defaultValue="Reset" className="resetGame">New Game</button>
+          <div className='match__userInfo'>Tries:&nbsp;
+          <span className={attempts > 8 ? 'match-highlight' : ''}>{attempts}</span> </div>
+ 
            </div>
            <div className="match__grid">
                 {cards.map(card => (
                   <Card 
                   handleGuess={handleGuess}
                   card={card} 
-                  flipped={card === firstGuess || card === secondGuess || card.matched}/>
+                  flipped={card === firstGuess || card === secondGuess || card.matched}
+                  disabled={disabled} />
                 ))}
                
           </div> 

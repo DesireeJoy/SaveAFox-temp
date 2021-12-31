@@ -1,6 +1,6 @@
 {
   "name": "fox-site",
-  "homepage": ".",
+  "homepage": "https://desireejoy.github.io/SaveAFox-temp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "nodemon /components/App/app.js"
+    "dev": "nodemon /components/App/app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +45,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "install": "^0.13.0",
     "nodemon": "^2.0.12"
   }
 }

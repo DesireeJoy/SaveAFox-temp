@@ -4,20 +4,21 @@
 }
 .match__userBox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 10px auto;
-  border-radius: 10px;
+  border-radius: 25px;
   border: 4px solid rgba(0, 212, 255, 1);
   overflow: none;
   padding: 10px;
   background-color: white;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   font-size: 12px;
   line-height: 14px;
   max-height: 800px;
   background-color: rgba(0, 212, 255, 0.75);
   width: 75%;
+  min-height: 200px;
 }
 .match__grid {
   margin-top: 50px;
@@ -28,29 +29,35 @@
 }
 .match__game-area {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 80%;
-  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 150px;
+  margin-top: 25px;
 }
 .match__userInfo {
-  background-color: white;
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
   border-radius: 15px;
-  color: black;
-  height: 4em;
-  width: 15%;
-  padding: 20px;
+  width: 75%;
 }
 
 .resetGame {
   line-height: 12px;
-  width: 150px;
-  height: 55px;
-  background-color: palevioletred;
+  width: 200px;
+  height: 2.5em;
   color: white;
   font-size: 2em;
-  border-radius: 10px;
+  font-weight: 700;
+  border: 3px solid white;
+  border-radius: 15px;
+  background: transparent;
+  margin-bottom: 25px;
+}
+.match-highlight {
+  color: red;
+  font-weight: 800;
 }
 
 .grid__card:hover {
@@ -61,13 +68,14 @@
   width: 100%;
   height: 100%;
   position: relative;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .match__card .match__card-back {
   border: 1px solid white;
   transition: all ease-in 0.2s;
   transition-delay: 0.2s;
+  border-radius: 25px;
 }
 
 .match__card .match__card-front {
@@ -75,6 +83,7 @@
   transition: all ease-in 0.2s;
   transform: rotateY(90deg);
   position: absolute;
+  border-radius: 25px;
 }
 
 .card__rotate .match__card-front {
@@ -98,6 +107,12 @@
   border-radius: 15px;
   padding: 30px;
   border: 3px solid grey;
+}
+@media only screen and (max-width: 1200px) {
+  .match__userBox {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media only screen and (orientation: portrait) and (max-width: 900px) {
   .match {

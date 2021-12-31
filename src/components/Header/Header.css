@@ -30,12 +30,12 @@
   top: -5px;
   width: calc(100% + 20px);
   background: rgb(55, 212, 87);
-  border-radius: 0;
   z-index: -1;
   transform: scaleX(0.001);
   transform-origin: left;
   transition: transform 250ms ease-in;
   text-decoration: none;
+  border-radius: 25px;
 }
 .header__navItem:hover {
   text-decoration: none;

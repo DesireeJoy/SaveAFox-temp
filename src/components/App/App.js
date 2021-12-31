@@ -15,7 +15,6 @@ const downloadLength = downloadsList.length;
 
 
  function App() {
-  const [Theme, setTheme] = useState('light');
   const [downloadsShown, setDownloadsShown] = useState(3);
   const [isMobile, setIsMobile] = useState(false);
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
@@ -57,7 +56,6 @@ function handleMobileClose() {
     <Switch> 
           <Route >
             <Main
-            theme={Theme}
             downloadsShown={downloadsShown}
             handleShowMore = {handleShowMore}
             downloadLength = {downloadLength}

@@ -27,8 +27,9 @@ const bookList = [
     link: "Book3Kipper.jpeg",
     alt: "Finnegan Fox Book Three Cover",
     buy:
-      "https://www.saveafox.org/product-page/the-great-escape-children-s-book",
+      "https://www.saveafox.org/product-page/finnegan-book-series-kipper-gets-rescued-from-a-fur-farm",
   },
+  
 ];
 
 
