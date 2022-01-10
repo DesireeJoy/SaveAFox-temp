@@ -109,13 +109,7 @@
   padding: 30px;
   border: 3px solid grey;
 }
-@media only screen and (max-width: 1200px) {
-  .match__userBox {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-}
+
 @media only screen and (orientation: portrait) and (max-width: 1100px) {
   .match {
     display: none;
@@ -125,6 +119,11 @@
   }
 }
 @media only screen and (orientation: landscape) and (max-width: 1100px) {
+  .match__userBox {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
   .match__grid {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -134,15 +133,14 @@
   }
   .match__card {
     max-width: 75px;
-    border-radius: 50%;
   }
   .match__card-back {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 75px;
+    max-height: 75px;
   }
 
   .match__card-front {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 75px;
+    max-height: 75px;
   }
 }
