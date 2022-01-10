@@ -130,18 +130,18 @@
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 1px;
   }
   .match__card {
-    max-width: 70px;
+    max-width: 75px;
   }
   .match__card-back {
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 50px;
+    max-height: 50px;
   }
 
   .match__card-front {
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 50px;
+    max-height: 50px;
   }
 }
