@@ -21,11 +21,11 @@
   min-height: 200px;
 }
 .match__grid {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 .match__game-area {
   display: flex;
@@ -65,20 +65,21 @@
 }
 
 .match__card {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   position: relative;
   border-radius: 25px;
 }
 
-.match__card .match__card-back {
-  border: 1px solid white;
+.match__card-back {
+  border: 0.05em solid white;
   transition: all ease-in 0.2s;
   transition-delay: 0.2s;
   border-radius: 25px;
+  max-height: 100%;
 }
 
-.match__card .match__card-front {
+.match__card-front {
   border: 3px solid white;
   transition: all ease-in 0.2s;
   transform: rotateY(90deg);
@@ -112,6 +113,7 @@
   .match__userBox {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 }
 @media only screen and (orientation: portrait) and (max-width: 900px) {
@@ -120,5 +122,26 @@
   }
   .match__alert-landscape {
     display: block;
+  }
+}
+@media only screen and (orientation: landscape) and (max-width: 900px) {
+  .match__grid {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+  }
+  .match__card {
+    max-width: 70px;
+  }
+  .match__card-back {
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  .match__card-front {
+    max-width: 70px;
+    max-height: 70px;
   }
 }
