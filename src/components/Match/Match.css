@@ -134,6 +134,7 @@
   }
   .match__card {
     max-width: 75px;
+    border-radius: 50%;
   }
   .match__card-back {
     max-width: 50px;
