@@ -7,15 +7,7 @@
   const bookLength = bookList.length;
 function Books() {
     return (
-<React.Fragment>
-  
- <div className='books__heading' id='books'>Finnegan Fox Books</div>
-  <div className='books__subheading'>The Finnegan fox adventures are always growing and introducing new members of the Save A Fox gang.</div>
-     <Fade cascade='true'  damping=".5" direction="right"> 
-<div className='books'><div className='books__cont'> 
-<div className='books__inner-cont'> 
-  <div className='books__bg'></div>
-
+<div className='books__container-inner'>
                 {bookList
                     .slice(0, bookLength >= maxBooksRow ? bookLength : maxBooksRow)
                 .map((book, index) => (
@@ -29,9 +21,8 @@ function Books() {
                 />
                 ))}
           
-                </div></div></div>
-                      </Fade>
-</React.Fragment>
+                
+</div>
     )
 }
 

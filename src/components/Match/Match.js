@@ -81,10 +81,6 @@ firstGuess ? setSecondGuess(card) : setFirstGuess(card)
     return (
 <div className='fun' id='fun'>
   
-      <div className='fun__heading'>Matching Game</div>
-     <p className='fun__subheading'>Match the faces of these real residents of Save A Fox.</p>
-        <div className='fun__container'>
-         <div className='fun__bg'></div>
          <div className='match__alert-landscape'>
            Phone must be in landscape mode to play.
          </div>
@@ -114,7 +110,7 @@ firstGuess ? setSecondGuess(card) : setFirstGuess(card)
         </div> 
 
         </div>
-        </div>
+     
     );
   }
 

@@ -1,52 +1,5 @@
-.fun {
-  display: flex;
-  flex-direction: column;
-  padding: 24px;
-  position: relative;
-}
-.fun__heading {
-  width: 80%;
-  margin: 0 auto;
-  font-size: 36px;
-  color: rgba(0, 212, 255, 1);
-  font-weight: 800;
-  text-align: left;
-  padding-top: 20px;
-}
-.fun__subheading {
-  width: 80%;
-  margin: 0 auto 75px auto;
-  font-size: 24px;
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: 400;
-  text-align: left;
-
-  padding-top: 5px;
-}
-.fun__container {
-  width: 100%;
-  margin: 0;
-  display: flex;
-  font-size: 24px;
-  color: rgba(0, 0, 0, 0.5);
-  flex-flow: column wrap;
-  justify-content: space-between;
-  position: relative;
-  padding: 50px 0;
-}
-.fun__bg {
-  transform: rotate(3deg);
-  z-index: -1;
-  position: absolute;
-  left: -50px;
-  top: 0;
-  background-color: rgb(55, 212, 87);
-  height: 100%;
-  width: 125%;
-}
 .fun__download {
   display: grid;
-  max-width: 600px;
   grid-template-columns: repeat(3, minmax(200px, 2fr));
   grid-gap: 10px;
   margin: 0 auto;
