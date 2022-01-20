@@ -16,8 +16,8 @@ function Block(props) {
                 {ContentComponent && <ContentComponent />}
                 </div>
 
-  </Fade>
-</section>
+         </Fade>
+    </section>
         )
 }
 

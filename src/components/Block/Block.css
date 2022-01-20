@@ -83,10 +83,14 @@
   .block__heading {
     font-size: 18px;
     padding: 0;
+    padding-top: 25px;
   }
   .block__subheading {
-    margin: 0 auto 50px auto;
+    margin: 0 auto 75px auto;
     font-size: 14px;
+  }
+  .block__bg {
+    width: 675px;
   }
 }
 @media only screen and (max-width: 550px) {

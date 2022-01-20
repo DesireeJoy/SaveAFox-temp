@@ -6,3 +6,9 @@
   margin: 0 auto;
   position: relative;
 }
+@media only screen and (max-width: 850px) {
+  .books__container-inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
