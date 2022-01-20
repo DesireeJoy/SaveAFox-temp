@@ -19,10 +19,10 @@
   background-color: rgba(0, 212, 255, 0.75);
   width: 75%;
   min-height: 200px;
+  background-color: white;
 }
 .match__grid {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 0 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
@@ -38,21 +38,22 @@
 .match__userInfo {
   font-size: 24px;
   font-weight: 800;
-  color: white;
+
   border-radius: 15px;
   width: 75%;
+  color: black;
 }
 
 .resetGame {
   line-height: 12px;
   width: 200px;
   height: 2.5em;
-  color: white;
+  color: black;
   font-size: 2em;
   font-weight: 700;
   border: 3px solid white;
   border-radius: 15px;
-  background: transparent;
+  background: rgba(0, 212, 255, 1);
   margin-bottom: 25px;
 }
 .match-highlight {
@@ -125,8 +126,7 @@
     width: 100%;
   }
   .match__grid {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 20px 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1px;
