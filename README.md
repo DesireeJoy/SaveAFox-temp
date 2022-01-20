@@ -1,7 +1,7 @@
 # Live Version
 [Live Site](https://desireejoy.github.io/SaveAFox-temp/)
 
-#SaveAFox is a fox rescue located in Minnesota. This website is for their promotional childrens books **The Adventures of Finnegan Fox**
+# SaveAFox is a fox rescue located in Minnesota. This website is for their promotional childrens books **The Adventures of Finnegan Fox**
 
 ## Technology
 
@@ -14,5 +14,4 @@
 
 ### Screenshots
 
-![Matching Game Screenshot](MatchingGame.png)
 ![Screenshot of Layout](SAF-Preview.png)
