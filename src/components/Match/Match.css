@@ -13,8 +13,8 @@
   background-color: white;
   align-items: flex-start;
   justify-content: space-between;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75em;
+  line-height: 1em;
   max-height: 800px;
   background-color: rgba(0, 212, 255, 0.75);
   width: 75%;

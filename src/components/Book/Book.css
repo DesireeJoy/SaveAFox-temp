@@ -101,11 +101,11 @@
 
 @media only screen and (max-width: 1080px) {
   .book__title {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .book__subtitle {
-    font-size: 13px;
+    font-size: 10px;
     padding-right: 5px;
   }
 
@@ -117,23 +117,22 @@
     margin: 5px 0;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
   .book__info {
     min-width: 125px;
   }
   .book__title {
     font-size: 12px;
-    line-height: 1.5em;
+    line-height: 1em;
   }
 
   .book__subtitle {
-    font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1em;
   }
 
   .book__contrib {
-    font-size: 12px;
-    line-height: 1.25em;
+    font-size: 10px;
+    line-height: 1em;
   }
 }
 @media only screen and (max-width: 680px) {
@@ -147,8 +146,6 @@
   .book__contrib {
     padding: 0;
     padding-top: 5px;
-    font-size: 12px;
-    line-height: 1em;
   }
   .book__buyItem {
     font-weight: 400;
