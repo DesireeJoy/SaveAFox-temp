@@ -79,7 +79,7 @@ firstGuess ? setSecondGuess(card) : setFirstGuess(card)
 }
 
     return (
-<div className='fun' id='fun'>
+<div  >
   
          <div className='match__alert-landscape'>
            Phone must be in landscape mode to play.

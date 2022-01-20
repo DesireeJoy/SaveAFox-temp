@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 function Navigation(props) {
 
   return (
-<div className="menu">
+<nav className="menu">
              
                  
         <ul className="header__menuList">
@@ -30,7 +30,7 @@ function Navigation(props) {
 
 
         </ul>
-      </div>
+      </nav>
   )
 }
 

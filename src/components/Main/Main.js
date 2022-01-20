@@ -17,6 +17,7 @@ function Main(props) {
     <main className='main'>
      <About />
      <Block 
+      navId='books'
      heading='Finnegan Fox Books' 
      subheading='The Finnegan fox adventures are always growing and introducing new members of the Save A Fox gang.' 
      direction='left' 
@@ -24,14 +25,16 @@ function Main(props) {
      ContentComponent={Books}/>
 
    <Block 
+   navId='fun'
    heading='Finnegan Fun!' 
    subheading="There are many different shapes and sizes when it comes to mobile device screen size. We can't provide all of them. So we've done our best to average android and iphone screen sizes and size our images based on that information."
    direction='right' 
-     bg= 'greenbg'
+    bg= 'greenbg'
    ContentComponent={Fun}
 />
   
   <Block heading='Fox Match' 
+  navId='match'
   subheading='Match the faces of these real residents of Save A Fox. test' 
   direction='left' 
   bg= 'bluebg'
